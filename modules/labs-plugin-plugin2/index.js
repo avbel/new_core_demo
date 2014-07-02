@@ -1,6 +1,8 @@
 "use strict";
 let http = require("http");
 
+//plugin with custom config provider
+
 module.exports = function*(plugin){
   plugin.logger.debug("Running plugin %s@%s", plugin.name, plugin.version);
   plugin.logger.debug(plugin.config.get("test"));
