@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^3.0.6",
+    "labs-config-demo": "*",
+    "labs-app-koa": "*",
+    "labs-plugin-standalone-web-app": "*",
+    "labs-plugin-plugin1": "*",
+    "labs-plugin-plugin2": "*"
+  },
+  "devDependencies": {
+    "debug": "^1.0.2"
+  }
+}
