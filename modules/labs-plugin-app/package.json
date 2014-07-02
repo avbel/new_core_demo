@@ -1,0 +1,8 @@
+{
+  "name": "labs-plugin-app",
+  "version": "0.0.1",
+  "dependencies" : {
+    "koa" : "*",
+    "koa-router" : "*"
+  }
+}
