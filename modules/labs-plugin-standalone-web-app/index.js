@@ -5,7 +5,7 @@ let http = require("http");
 
 module.exports = function*(plugin){
   plugin.logger.debug("Running plugin %s@%s", plugin.name, plugin.version);
-  if(plugin.backend.name !== "koa"){
+  if(plugin.backend.name !== "koa"){ //check if this plugin can be used
     throw new Error("koa backend is required");
   }
   let server = http.createServer(plugin.backend.instance.getRequestHandler());

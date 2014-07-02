@@ -8,7 +8,7 @@ module.exports = function*(plugin){
   plugin.logger.debug(plugin.config.get("test"));
 };
 
-module.exports.configProvider = function*(config){
+module.exports.configProvider = function*(config){ //custom config provider here, 'config' is instance of glogab config provider
   return {
     get: function(name){
       return name + " from plugin";
