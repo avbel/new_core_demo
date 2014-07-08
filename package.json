@@ -14,8 +14,7 @@
     "labs-plugin-config": "*",
     "labs-plugin-koa": "*",
     "labs-plugin-plugin1": "*",
-    "labs-plugin-plugin2": "*",
-    "q": "^1.0.1"
+    "labs-plugin-plugin2": "*"
   },
   "devDependencies": {
     "debug": "^1.0.2"
